@@ -1,9 +1,26 @@
-.App {
+ /* .App {
   text-align: center;
+} 
+ .card img{
+  height: auto; 
+ }
+/* .card{
+  margin-left: 1.5rem;
+  position: relative;
+  
+} */ 
+/* .card-title{
+  color-scheme: red;
 }
-.card img{
-  height: 300px;
+.card-text{
+  text-shadow: aqua;
+} */
+ /* .details{
+  width: 25rem
 }
 
-
-
+@media only screen and (max-width:928px){
+  .details{
+    width: 23rem;
+  }
+}  */
