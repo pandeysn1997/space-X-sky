@@ -1,26 +1,84 @@
- /* .App {
+  /* .App {
   text-align: center;
 } 
  .card img{
   height: auto; 
  }
-/* .card{
-  margin-left: 1.5rem;
-  position: relative;
+ .card{
+  margin-left: auto;
+  position: relative; 
   
-} */ 
-/* .card-title{
+}  */
+  /* .card-title{
   color-scheme: red;
 }
 .card-text{
   text-shadow: aqua;
 } */
- /* .details{
-  width: 25rem
-}
+  .hover {
+    padding: 10px;
+    width: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    transition: .7s;
+    grid-auto-rows: auto;
 
-@media only screen and (max-width:928px){
-  .details{
-    width: 23rem;
+    grid-gap:10px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
   }
-}  */
+
+  @media only screen and (min-width:362px) {
+    .cards-hover {
+      width: auto;
+    }
+  }
+   @media screen and  (max-width:1434){
+    .cards-hover{
+      width: auto;
+    }
+    
+  } 
+
+  /* .pop{
+  background-color:crimson;
+
+}
+.expo{
+  background-color: cyan;
+}
+.luci{
+  background-color: darkcyan;
+ }  */
+  /* .text-limit{
+  margin-left: auto;
+    margin-right: auto;
+    
+} */
+  .grid-container {
+    display:grid;
+    position: relative;
+    column-gap: 10px;
+    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    margin-right: auto;
+    margin-left:auto ;
+    
+  }
+
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    
+    font-size:small;
+    text-align: center;
+   
+    margin-right: auto;
+    margin-left:auto ;
+  }
